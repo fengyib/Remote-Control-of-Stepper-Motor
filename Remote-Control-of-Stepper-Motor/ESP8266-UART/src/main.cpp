@@ -8,7 +8,7 @@ const char *password="12345678";
 
 const char *mqtt_broker = "154.8.192.235";
 const char *mqtt_username = "admin";
-const char *mqtt_password = "Chongyuan402";
+const char *mqtt_password = "12345678";
 const int mqtt_port = 1883;
 
 
