@@ -36,13 +36,6 @@ void setup()
     delay(2000);
     }
   }
-  
-  // 初始化ESP8266
-  //espSerial.println("AT"); // 发送AT指令
-  //delay(1000); // 等待ESP8266响应
-
-  // 设置ESP8266的工作模式为Station模式
-  //espSerial.println("AT+CWMODE=1");
 }
 //回调函数只能有一个
 void callback(char* topic, byte* message, unsigned int length) {
